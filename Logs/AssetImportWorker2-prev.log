@@ -1,0 +1,734 @@
+Unity Editor version:    6000.0.32f1 (b2e806cf271c)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024
+Kernel version:          6.8.0-51-generic
+Architecture:            x86_64
+Available memory:        15344 MB
+Using pre-set license
+Pro License: YES
+The selected window backend is (null) 
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/mnt/data/Real
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+44815
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /mnt/data/Real
+
+(Unity:15785): Gtk-CRITICAL **: 17:47:58.623: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+
+(Unity:15785): Gtk-CRITICAL **: 17:47:58.628: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+/mnt/data/Real
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [130350454338880]  Target information:
+
+Player connection [130350454338880]  * "[IP] 192.168.0.157 [Port] 0 [Flags] 2 [Guid] 3840611089 [EditorId] 3840611089 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.157) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [130350454338880] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [130350454338880] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.32f1 (b2e806cf271c)
+[Subsystems] Discovering subsystems at path /mnt/data/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /mnt/data/Real/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: AMD Radeon Graphics (radeonsi, renoir, LLVM 17.0.6, DRM 3.57, 6.8.0-51-generic)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 24.0.9-0ubuntu0.3
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_dist
+ance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel
+_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensio
+ns GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex
+_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3t
+c GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_
+atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1463619632
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = '/mnt/data/6000.0.32f1/Editor/Data/Managed'
+Mono path[1] = '/mnt/data/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/mnt/data/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56785
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /mnt/data/6000.0.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /mnt/data/6000.0.32f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.013047 seconds.
+- Loaded All Assemblies, in  0.527 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.392 seconds
+Domain Reload Profiling: 915ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (190ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (343ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.197 seconds
+Refreshing native plugins compatible for Editor in 5.65 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.941 seconds
+Domain Reload Profiling: 2111ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (852ms)
+		LoadAssemblies (661ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (196ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (941ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (760ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (38ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 10.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 249 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6359 unused Assets / (6.9 MB). Loaded Objects now: 7046.
+Memory consumption went from 165.4 MB to 158.5 MB.
+Total: 27.362671 ms (FindLiveObjects: 1.167991 ms CreateObjectMapping: 1.700530 ms MarkObjects: 15.027982 ms  DeleteObjects: 9.463713 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4338.977286 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Vegetation
+  artifactKey: Guid(3dbb514cf9dc64ff3bea3995edc0d1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Vegetation using Guid(3dbb514cf9dc64ff3bea3995edc0d1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b108378c828bfe03f89e79d2d4707d01') in 0.01343317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.274207 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Vegetation/bush-type-A.fbx
+  artifactKey: Guid(94ed5dd0a20184a0ca74da04e1e4ab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Vegetation/bush-type-A.fbx using Guid(94ed5dd0a20184a0ca74da04e1e4ab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9464c4daacfbc7ddfd15c0dff8ecdd32') in 0.605059327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 393.839842 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings
+  artifactKey: Guid(6f7d6bb10583c4650b7f0faf9d106aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings using Guid(6f7d6bb10583c4650b7f0faf9d106aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f31831b642c2216977f106d4f193d5b3') in 0.001259313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.820975 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure
+  artifactKey: Guid(5e2d2164a95284fb4b9cd7dcc27323a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure using Guid(5e2d2164a95284fb4b9cd7dcc27323a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8ff8f5b31bdac7534edee84597fe3ca') in 0.001456241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.955799 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings
+  artifactKey: Guid(9a94f04515e0a48e490d4cfeb06e7fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings using Guid(9a94f04515e0a48e490d4cfeb06e7fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36f61fba8c1b719a4fe9501571fd2b04') in 0.001515162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094497 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-airport.fbx
+  artifactKey: Guid(4c71066b1aa33458b9708dad0587a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-airport.fbx using Guid(4c71066b1aa33458b9708dad0587a354) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7713a10d250721f52ac02969aed01117') in 0.135022192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-church.fbx
+  artifactKey: Guid(edcbfd3ebdfc648a39fea01666c82dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-church.fbx using Guid(edcbfd3ebdfc648a39fea01666c82dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b352f7faf4cd927ce5bdcc883a078668') in 0.087426747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-power-plant.fbx
+  artifactKey: Guid(331374796a91a40a1835e1fbd2ae4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-power-plant.fbx using Guid(331374796a91a40a1835e1fbd2ae4741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fafe39bb69896a225a5b4493c6593db3') in 0.028996926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-nuclear-power-plant.fbx
+  artifactKey: Guid(00998e00b16a64347bf5d1dee51d48c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-nuclear-power-plant.fbx using Guid(00998e00b16a64347bf5d1dee51d48c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eab4e86b49aa569095135275b88d16cd') in 0.045332841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-basketball-court.fbx
+  artifactKey: Guid(475a6fa9d62a34fdf8ef2e7e64e80d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-basketball-court.fbx using Guid(475a6fa9d62a34fdf8ef2e7e64e80d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25d41f2215e6c283568056387238b642') in 0.03855177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-plaza.fbx
+  artifactKey: Guid(dde48e39750a84f15991bcaf3a7d3c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-plaza.fbx using Guid(dde48e39750a84f15991bcaf3a7d3c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd683775df9bcfcbe1d484889ee5b754') in 0.018445372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-tennis-court.fbx
+  artifactKey: Guid(47132d1dacdf143ea9a3efd4fb5de703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-tennis-court.fbx using Guid(47132d1dacdf143ea9a3efd4fb5de703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bcc6f7004f57edf4dccaa78c945f3dc') in 0.018587639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-park.fbx
+  artifactKey: Guid(0bcd442d90b0b4e4192bf1693ebe4d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-park.fbx using Guid(0bcd442d90b0b4e4192bf1693ebe4d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '041d43aac5a85a2217ef91eb35efc058') in 0.045832038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-clock-tower.fbx
+  artifactKey: Guid(1a377c53fb7614c1ca3a045820f4ef1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-clock-tower.fbx using Guid(1a377c53fb7614c1ca3a045820f4ef1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '302ac6347c9938037dc2913fe02fc547') in 0.061307158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-stadium.fbx
+  artifactKey: Guid(2c58d6fd6fad54dbdae566e73de18cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Infrastructure Buildings/infrastructure-building-stadium.fbx using Guid(2c58d6fd6fad54dbdae566e73de18cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da7353895ebf7786b78a2283ad5ca1f5') in 0.045718254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.412019 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/highway-ramp.fbx
+  artifactKey: Guid(60cb4326074b84cd695a7c67c9895768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/highway-ramp.fbx using Guid(60cb4326074b84cd695a7c67c9895768) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fd32c92afb12590a99ef9ac4414d4f8') in 0.043299567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027515 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/pedestrian-way-left-turn.fbx
+  artifactKey: Guid(b804aac721e464906b14a12c1fe12d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/pedestrian-way-left-turn.fbx using Guid(b804aac721e464906b14a12c1fe12d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '822ca6a68a9126260f51894d9935c4a8') in 0.041082878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/railroad-track-linear-piece.fbx
+  artifactKey: Guid(64b1ff5330f7142be9eb4e9ebd754dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/railroad-track-linear-piece.fbx using Guid(64b1ff5330f7142be9eb4e9ebd754dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11a06d8f1490eceff641afeb5fbac4d6') in 0.027225233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-curved-road-piece.fbx
+  artifactKey: Guid(ac2eab3fccb2a4758a74ddd6bb33726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-curved-road-piece.fbx using Guid(ac2eab3fccb2a4758a74ddd6bb33726d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef75bd8d6473e115e708b61b63b3f093') in 0.01525133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/railroad-track-curved-piece.fbx
+  artifactKey: Guid(89dfb6a4871a94bdeb385f8120161ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/railroad-track-curved-piece.fbx using Guid(89dfb6a4871a94bdeb385f8120161ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3217423edae26831259ae7167fdb35a') in 0.017728236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/linear-highway-piece.fbx
+  artifactKey: Guid(d25d093d7ec514fd2a05554c005baa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/linear-highway-piece.fbx using Guid(d25d093d7ec514fd2a05554c005baa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edab964493d3cfc4a31848089c847a81') in 0.014123174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/single-lane-road-roundabout.fbx
+  artifactKey: Guid(5f0ab882a227c4308935e9b92b18b40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/single-lane-road-roundabout.fbx using Guid(5f0ab882a227c4308935e9b92b18b40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14cdb93e66cc58ce23cb8ef0b9ddb0d9') in 0.025606567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/pedestrian-way-linear-piece.fbx
+  artifactKey: Guid(245fa0cad15274c368b3008fccafeebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/pedestrian-way-linear-piece.fbx using Guid(245fa0cad15274c368b3008fccafeebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4ab1d64604dbaaac9a356d2f4d51a7e') in 0.016436995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/single-lane-L-junction-road-piece.fbx
+  artifactKey: Guid(1238da0e9deb243f685ef8ed17577eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/single-lane-L-junction-road-piece.fbx using Guid(1238da0e9deb243f685ef8ed17577eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b35ed71d24c2da9c67715555ffc85a6') in 0.01548571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-L-junction-left.fbx
+  artifactKey: Guid(2e4cfad7db201493194e10f3570821d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-L-junction-left.fbx using Guid(2e4cfad7db201493194e10f3570821d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3097a92b75c52271900f93b57a3a6340') in 0.025161541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-linear-road-piece.fbx
+  artifactKey: Guid(8c338600d4e15465986843f5e7326d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-linear-road-piece.fbx using Guid(8c338600d4e15465986843f5e7326d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '517d28a222c914f0b0b594388838a893') in 0.026319273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/pedestrian-way-curved-piece.fbx
+  artifactKey: Guid(65c09dc37ee594342af431b2db99d697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/pedestrian-way-curved-piece.fbx using Guid(65c09dc37ee594342af431b2db99d697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57dfda005d580f9b91929633a86be5fb') in 0.017663846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-intersaction.fbx
+  artifactKey: Guid(d74150291c72244f08d7645058a70087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-intersaction.fbx using Guid(d74150291c72244f08d7645058a70087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27f2959f7ce1ea5b9d8f36f814443016') in 0.01499496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-road-roundabout.fbx
+  artifactKey: Guid(11a8916fcffb64c669e9888fa2997c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/two-lane-road-roundabout.fbx using Guid(11a8916fcffb64c669e9888fa2997c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dcd0ddd0c4898269c7aabeaf849bb67') in 0.013421969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/pedestrian-way-right-turn.fbx
+  artifactKey: Guid(36cd5f435999f4491be47e270a66943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Roads-Streets-Highways/pedestrian-way-right-turn.fbx using Guid(36cd5f435999f4491be47e270a66943e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46b423d464a34c37437cc876b632c099') in 0.013466632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.489555 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/electrical-pole-duo.fbx
+  artifactKey: Guid(92b5cc52b05464dd780163663449e545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/electrical-pole-duo.fbx using Guid(92b5cc52b05464dd780163663449e545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de609f2ae98ab8ebed9778da4d0c7863') in 0.065047965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/road-sign-double(two-lane-road).fbx
+  artifactKey: Guid(505062bdf3e564a748607d29fea0d3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/road-sign-double(two-lane-road).fbx using Guid(505062bdf3e564a748607d29fea0d3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a398b3024146008c714199aa13c6660') in 0.112817036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/road-sign-single.fbx
+  artifactKey: Guid(790776b712c434523b711946403a7b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/road-sign-single.fbx using Guid(790776b712c434523b711946403a7b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fac54f52b8485e1f6efbdf7680b8246') in 0.041002778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/traffic-cone.fbx
+  artifactKey: Guid(4763bbf4887ca411ab3e27d26fcbe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/traffic-cone.fbx using Guid(4763bbf4887ca411ab3e27d26fcbe415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc3eb44721a65a94cb1399460c757319') in 0.032956124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/traffic-lights-single.fbx
+  artifactKey: Guid(722bace500c854b6a8487c1ab70cb406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/traffic-lights-single.fbx using Guid(722bace500c854b6a8487c1ab70cb406) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd86d490fd2e7ee2d6aa5a364c1a61f8') in 0.054727495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/stop-sign.fbx
+  artifactKey: Guid(40541a6c30fe8409bb31c0dccc9e2e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/stop-sign.fbx using Guid(40541a6c30fe8409bb31c0dccc9e2e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f147f8bb424b2fdeca2884307e44e1d') in 0.047040214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/road-block-type-B.fbx
+  artifactKey: Guid(d6ef19e5ee2a54f219d8b41966560051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/road-block-type-B.fbx using Guid(d6ef19e5ee2a54f219d8b41966560051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '252c3ef731fad082e3fc2385ab834ba3') in 0.028075929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/no-parking-sign.fbx
+  artifactKey: Guid(2c459d08a9cb5428ab30695b648cd1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Infrastructure/Props/no-parking-sign.fbx using Guid(2c459d08a9cb5428ab30695b648cd1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd46e1986e94776fba9e40b1da01bded') in 0.069010519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.031625 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/cb-apartment-B.fbx
+  artifactKey: Guid(034d202d1fb7849f3b2388381474f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/cb-apartment-B.fbx using Guid(034d202d1fb7849f3b2388381474f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8e527a83e1cbe858f1d7f9d2ff07ace') in 0.22187437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/suburban-house-B.fbx
+  artifactKey: Guid(250f8b91a32194fb988228ffc2eb4909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/suburban-house-B.fbx using Guid(250f8b91a32194fb988228ffc2eb4909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fbccec1547d775343bae5341bdd78e0') in 0.027251813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/suburban-house-D.fbx
+  artifactKey: Guid(80075cedcf3bf442fbf0355b2b70e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/suburban-house-D.fbx using Guid(80075cedcf3bf442fbf0355b2b70e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67dfcce445b915645e8db2d4d864b70d') in 0.044362531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/cb-apartment-H.fbx
+  artifactKey: Guid(19d09b91534f44402a281105c7209468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/cb-apartment-H.fbx using Guid(19d09b91534f44402a281105c7209468) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e733afa8b5d2ec69130ec5dc9bb3882') in 0.05616951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/cb-apartment-D.fbx
+  artifactKey: Guid(d28d6a561b61e44eda07ca3d1516c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Civil Buildings/cb-apartment-D.fbx using Guid(d28d6a561b61e44eda07ca3d1516c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84dac00208746f0953119eb467f79441') in 0.049978085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.684109 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Commercial Buildings/commercial-building-coffee-shop.fbx
+  artifactKey: Guid(4e452fc9aaac34b03b583851cfe966d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Commercial Buildings/commercial-building-coffee-shop.fbx using Guid(4e452fc9aaac34b03b583851cfe966d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '840299cbd8096cd478ebfc32808b78e0') in 0.103951746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Commercial Buildings/commercial-building-ice-cream-shop.fbx
+  artifactKey: Guid(b07cb0d709acb4969a0c1ff95d208e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Commercial Buildings/commercial-building-ice-cream-shop.fbx using Guid(b07cb0d709acb4969a0c1ff95d208e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aab561c48f083d02c42e5beffe3f949') in 0.085002288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Commercial Buildings/commercial-building-shopping-center.fbx
+  artifactKey: Guid(cc1a1d077cae94a35996f68561433600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Commercial Buildings/commercial-building-shopping-center.fbx using Guid(cc1a1d077cae94a35996f68561433600) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1977ba5a962e3ddc9caeba609f42a1a3') in 0.094238104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.129285 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Government Buildings/government-building-city-hall.fbx
+  artifactKey: Guid(11ff60d887a4e431db8b890e3e937dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Government Buildings/government-building-city-hall.fbx using Guid(11ff60d887a4e431db8b890e3e937dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd19e5f77e038132da1cf91d83b38014') in 0.055534128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Government Buildings/government-building-police-station.fbx
+  artifactKey: Guid(3558ce411e4e54af99edfec7ed65f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Government Buildings/government-building-police-station.fbx using Guid(3558ce411e4e54af99edfec7ed65f373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b725a0f5e7ffd5ae5e0d0a90250e51a1') in 0.237776591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.438869 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-building-B.fbx
+  artifactKey: Guid(c8ef51119c0b048a7b6b3dc48e0c517a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-building-B.fbx using Guid(c8ef51119c0b048a7b6b3dc48e0c517a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '969524aef0f3e1b660accffa61c27342') in 0.060318082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003629 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-building-C.fbx
+  artifactKey: Guid(84866dd1e4fc14d0297db6d3dc544cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-building-C.fbx using Guid(84866dd1e4fc14d0297db6d3dc544cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cbc2cd77aabc324e720a24e3f5de3cf') in 0.049510759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-inconstruction-warehouse.fbx
+  artifactKey: Guid(0480cdaebe920479f9f8e0dd657b78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-inconstruction-warehouse.fbx using Guid(0480cdaebe920479f9f8e0dd657b78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22ae4890d501ccf2212b482fd1ec5a01') in 0.094898713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.154 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 2343ms
+	BeginReloadAssembly (336ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (683ms)
+		LoadAssemblies (616ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (192ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (877ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (228ms)
+			ProcessInitializeOnLoadAttributes (524ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6358 unused Assets / (7.4 MB). Loaded Objects now: 7096.
+Memory consumption went from 148.3 MB to 140.9 MB.
+Total: 15.635822 ms (FindLiveObjects: 1.566558 ms CreateObjectMapping: 1.103289 ms MarkObjects: 8.054370 ms  DeleteObjects: 4.909450 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 198.966404 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-building-A.fbx
+  artifactKey: Guid(517123dad6bd243ad81ae22a2d3b8928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-building-A.fbx using Guid(517123dad6bd243ad81ae22a2d3b8928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7bcc92e5fcbdbc942458815d6c87d52') in 0.591735984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-inconstruction-warehouse.fbx
+  artifactKey: Guid(0480cdaebe920479f9f8e0dd657b78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loading Games/Toon City Pack/Models/Buildings/Industrial Buildings/industrial-buildings-inconstruction-warehouse.fbx using Guid(0480cdaebe920479f9f8e0dd657b78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d345ccb85267b1559b1b10da435c065') in 0.050997608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.346 seconds
+Refreshing native plugins compatible for Editor in 5.52 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.151 seconds
+Domain Reload Profiling: 3484ms
+	BeginReloadAssembly (419ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (771ms)
+		LoadAssemblies (638ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (154ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1914ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (1609ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6525 unused Assets / (7.2 MB). Loaded Objects now: 7285.
+Memory consumption went from 151.6 MB to 144.4 MB.
+Total: 17.797256 ms (FindLiveObjects: 1.234416 ms CreateObjectMapping: 1.299979 ms MarkObjects: 11.588870 ms  DeleteObjects: 3.672490 ms)
+
+Prepare: number of updated asset objects reloaded= 0
