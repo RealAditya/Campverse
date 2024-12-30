@@ -98,7 +98,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - Unity for the powerful game development engine.
-- [Placeholder for any other third-party libraries or tools used in the project].
-
-
-
