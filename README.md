@@ -1,6 +1,6 @@
 # Campverse
 
-Welcome to the **Virtual Connect Project**! This immersive, cross-platform virtual environment aims to revolutionize the way people collaborate, relax, and socialize. Designed with inclusivity and engagement in mind, Virtual Connect offers dynamic spaces for corporate collaboration, personal connections, and even health and education.
+Welcome to the **Campverse**!,Virtual Connect Project This immersive, cross-platform virtual environment aims to revolutionize the way people collaborate, relax, and socialize. Designed with inclusivity and engagement in mind, Virtual Connect offers dynamic spaces for corporate collaboration, personal connections, and even health and education.
 
 ## Problem Statement
 
