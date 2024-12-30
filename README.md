@@ -19,7 +19,7 @@ Welcome to the Metaverse Project! This project is an immersive, cross-platform v
 ### Steps to Install
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/metaverse-project.git
+    git clone https://github.com/RealAditya/metaverse-project.git
     ```
 
 2. Open the project in Unity:
