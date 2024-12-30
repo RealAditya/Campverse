@@ -48,7 +48,7 @@ Breaks are crucial for productivity. Virtual Connect provides a platform to make
 ### Steps to Install
 1. Clone this repository:
     ```bash
-    git clone https://github.com/RealAditya/virtual-connect.git
+    [git clone https://github.com/RealAditya/virtual-connect.git](https://github.com/RealAditya/Campverse/tree/main)
     ```
 
 2. Open the project in Unity:
@@ -88,8 +88,8 @@ To contribute to the project, please fork the repository and create a pull reque
 ### Code Structure
 - `Assets/`: Contains all game assets like textures, models, and scripts.
 - `Scripts/`: Contains C# scripts for user interaction, multiplayer functionality, and environment management.
-- `Scenes/`: Contains Unity scenes for various use cases.
-- `Networking/`: Handles multiplayer connection and synchronization.
+- `Packages/`: Contains Unity Packs for various use cases.
+- `ProjectSettings/`: Handles multiplayer connection and configuration for our project.
 
 ## License
 
