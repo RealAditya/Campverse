@@ -73,13 +73,13 @@ To start your virtual experience:
 ## Screenshots
 
 ![Corporate Collaboration](path_to_corporate_collaboration_screenshot.png)  
-*Corporate Collaboration Spaces*
+*View of the 3D-World in Blender*
 
 ![Personalized Social Gathering](path_to_social_gathering_screenshot.png)  
-*Personalized Social Gatherings*
+*After Adding Textures in Unity*
 
 ![Health and Wellbeing](path_to_health_wellbeing_screenshot.png)  
-*Health and Wellbeing Spaces*
+*Adding further animations,logic and physics*
 
 ## Development
 
