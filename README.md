@@ -48,7 +48,7 @@ Breaks are crucial for productivity. Virtual Connect provides a platform to make
 ### Steps to Install
 1. Clone this repository:
     ```bash
-    [git clone https://github.com/RealAditya/virtual-connect.git](https://github.com/RealAditya/Campverse/tree/main)
+        https://github.com/RealAditya/Campverse/tree/main
     ```
 
 2. Open the project in Unity:
